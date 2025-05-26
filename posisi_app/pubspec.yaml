@@ -1,0 +1,41 @@
+name: posisi_app
+description: "Aplikasi pencari tempat terdekat dengan tema dinamis dan LBS."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  geolocator: ^11.0.0
+  google_maps_flutter: ^2.6.1
+  google_maps_flutter_web: ^0.5.4+2  # ⬅️ Tambahkan ini
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/Logo_posisi.png 
+
+  fonts:
+    - family: BebasNeue
+      fonts:
+        - asset: assets/fonts/BebasNeue-Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
