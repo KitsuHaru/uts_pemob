@@ -11,9 +11,9 @@ Proyek ini dikembangkan sebagai bagian dari [Nama Mata Kuliah/Tugas, jika releva
 - [Prasyarat](#prasyarat)
 - [Konfigurasi API Key](#konfigurasi-api-key)
 - [Langkah Instalasi](#langkah-instalasi)
-- [Struktur Proyek (Opsional)](#struktur-proyek-opsional)
+- [Struktur Proyek](#struktur-proyek)
 - [Tantangan dan Pembelajaran](#tantangan-dan-pembelajaran)
-- [Pengembangan Selanjutnya (Opsional)](#pengembangan-selanjutnya-opsional)
+- [Pengembangan Selanjutnya)](#pengembangan-selanjutnya)
 - [Kontributor](#kontributor)
 
 ## Fitur Utama
