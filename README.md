@@ -1,4 +1,4 @@
-# Posisi App - Nearby Spot Finder
+# Found Ya! - Nearby Spot Finder
 
 Aplikasi Flutter sederhana untuk menemukan tempat menarik terdekat (kafe, taman, tempat ibadah, dll.) berdasarkan lokasi pengguna saat ini. Aplikasi ini mendukung mode tema terang dan gelap serta menampilkan lokasi di peta interaktif.
 
@@ -146,7 +146,7 @@ Aplikasi ini menggunakan Google Maps Platform (Maps SDK for Android, Maps SDK fo
 
 ## Kontributor
 
-* [Ramdani - Bagus]
+* [Ramdani]
 * [Fakultas Ilmu Komputer - Jurusan Teknik Informatika]
 
 ---
