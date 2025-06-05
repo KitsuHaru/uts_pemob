@@ -20,44 +20,44 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<Spot> _allSpots = [
     Spot(
         id: 1,
-        name: "Kafe Koding",
+        name: "Starbucks Coffee",
         type: "Kafe",
         lat: -6.200000,
         lon: 106.810000,
         description:
-            "Kafe nyaman untuk programmer dengan WiFi cepat dan kopi nikmat."),
+            "Kafe populer dengan kopi berkualitas tinggi dan suasana nyaman untuk bekerja atau bersantai."),
     Spot(
         id: 2,
-        name: "Taman Inspirasi Kota",
-        type: "Taman",
+        name: "Rumah Sakit Atma Jaya",
+        type: "Rumah Sakit",
         lat: -6.210000,
         lon: 106.820000,
         description:
-            "Taman hijau luas di tengah kota, cocok untuk jogging pagi atau bersantai sore bersama keluarga."),
+            "Rumah sakit terkemuka dengan layanan medis lengkap dan profesional yang berpengalaman."),
     Spot(
         id: 3,
-        name: "Masjid Agung Al-Hikmah",
+        name: "Masjid Agung Al-Muhajirin",
         type: "Tempat Ibadah",
         lat: -6.195000,
         lon: 106.825000,
         description:
-            "Masjid bersejarah dengan arsitektur Islam modern yang menawan dan area yang luas."),
+            "Masjid yang menyatu dengan sekolah, tempat ibadah yang tenang dan nyaman untuk berdoa."),
     Spot(
         id: 4,
-        name: "Restoran Selera Nusantara",
+        name: "SEDERHANA Restoran",
         type: "Restoran",
         lat: -6.205000,
         lon: 106.815000,
         description:
-            "Menyajikan hidangan khas Indonesia otentik dari berbagai daerah dengan cita rasa yang kaya."),
+            "Restoran khas Indonesia dengan menu masakan Padang yang lezat dan harga terjangkau."),
     Spot(
         id: 5,
-        name: "Perpustakaan Cerdas",
-        type: "Perpustakaan",
+        name: "Gramedia Bookstore",
+        type: "Toko Buku",
         lat: -6.190000,
         lon: 106.800000,
         description:
-            "Koleksi buku lengkap dan area baca yang tenang untuk semua kalangan.")
+            "Toko buku terbesar di Indonesia dengan koleksi buku lengkap dari berbagai genre."),
   ];
 
   List<Spot> _displayedSpots = [];
@@ -307,7 +307,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Tempat Menarik Sekitar"),
+        title: const Text("Found YA!!"),
         actions: [
           IconButton(
             icon: Icon(
